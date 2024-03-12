@@ -70,7 +70,7 @@
   function add() {
     Lampa.Listener.follow('torrent_file', function (data) {
       if (data.type === 'onlong') {
-        data.element.url = data.element.url.replace('&preload', '&play').replace(/\s/g, '%20');
+        data.element.url = data.element.url.replace('&play', '&play').replace(/\s/g, '%20');
         var links_array = data.items;
         var formatted_urls = '';
         var _iterator = _createForOfIteratorHelper(links_array),
