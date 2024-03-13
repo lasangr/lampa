@@ -1,6 +1,6 @@
 (function () {
 	'use strict';
   
-	Lampa.Utils.putScriptAsync(['https://lasangr.github.io/its/itshit.js'], function () { });
+	Lampa.Utils.putScriptAsync(['https://lasangr.github.io/plugins/its.js'], function () { });
   
   })();
