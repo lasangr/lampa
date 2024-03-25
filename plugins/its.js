@@ -104,7 +104,7 @@
     window.plugin_its_ready = true;
     Lampa.Manifest.plugins = {
       type: "other",
-      version: "0.2",
+      version: "0.3",
       name: "Infuse saver",
       description: "Add save button for torrent",
       component: "its"
