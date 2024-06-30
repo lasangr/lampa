@@ -22,7 +22,7 @@ Lampa.SettingsApi.addParam({
     },
     onChange: function (value) {
      if (value == 'jackett_ru') Lampa.Storage.set('jackett_url', 'https://jct.lasangre.ru')&Lampa.Storage.set('jackett_key', 'kabi795abpkhgfis2h9gz6wxfrhf3bs2', '')&Lampa.Storage.set('jackett_interview','all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
-     if (value == 'jackett_en') Lampa.Storage.set('jackett_url', 'https://jct2.lasangre.ru')&Lampa.Storage.set('jackett_key', 'u7yelkfu5lty2hdcyqhfkzzqcj57e356', '')&Lampa.Storage.set('jackett_interview','all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
+     if (value == 'jackett_en') Lampa.Storage.set('jackett_url', 'https://local.lasangre.ru')&Lampa.Storage.set('jackett_key', '558uj0ceztmnbilfe0hjn1ilhngk98dd', '')&Lampa.Storage.set('jackett_interview','all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
      if (value == 'jacred_xyz') Lampa.Storage.set('jackett_url', 'https://jacred.xyz')&Lampa.Storage.set('jackett_key', '')&Lampa.Storage.set('jackett_interview', 'all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
      Lampa.Settings.update();
     },
