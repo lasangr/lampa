@@ -10,8 +10,7 @@ Lampa.SettingsApi.addParam({
      type: 'select',
      values: {
         no_parser:        'No Parser',
-        jackett_ru:       'Jackett RU',
-        jackett_en:       'Jackett EN',
+        jackett_ru:       'Jackett',
         jacred_xyz:       'Jacred.xyz',
      },
      default: 'no_parser'
@@ -21,8 +20,7 @@ Lampa.SettingsApi.addParam({
      description: 'Нажмите для выбора парсера из списка'
     },
     onChange: function (value) {
-     if (value == 'jackett_ru') Lampa.Storage.set('jackett_url', 'https://jct.lasangre.ru/jackett')&Lampa.Storage.set('jackett_key', 'yc52jahgz237tef2egcxcr5sh0kcd8a6', '')&Lampa.Storage.set('jackett_interview','all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
-     if (value == 'jackett_en') Lampa.Storage.set('jackett_url', 'https://local.lasangre.ru')&Lampa.Storage.set('jackett_key', '558uj0ceztmnbilfe0hjn1ilhngk98dd', '')&Lampa.Storage.set('jackett_interview','all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
+     if (value == 'jackett') Lampa.Storage.set('jackett_url', 'https://jct.lasangre.ru/jackett')&Lampa.Storage.set('jackett_key', 'yc52jahgz237tef2egcxcr5sh0kcd8a6', '')&Lampa.Storage.set('jackett_interview','all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
      if (value == 'jacred_xyz') Lampa.Storage.set('jackett_url', 'https://jacred.xyz')&Lampa.Storage.set('jackett_key', '')&Lampa.Storage.set('jackett_interview', 'all')&Lampa.Storage.set('parse_in_search', false)&Lampa.Storage.set('parse_lang', 'df');
      Lampa.Settings.update();
     },
